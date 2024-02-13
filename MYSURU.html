@@ -1,0 +1,161 @@
+<html>
+
+<head>
+    <title>package_details</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <style>
+        body {
+            background-image: url(./images/Bang.jpg);
+            background-position: center;
+            background-size: cover;
+            font-family: sans-serif;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+        button {
+            width: 150px;
+            height: 50px;
+            cursor: pointer;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #7f5a83;
+            background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+            background-size: 200% 100%;
+            background-position: left;
+            background-repeat: no-repeat;
+            transition: 500ms;
+        }
+
+        button:before {
+            content: 'BOOK NOW';
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 16px;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 140px;
+            height: 40px;
+            background-color: #5194eb;
+            background-image: linear-gradient(315deg, #3969c2 0%, #4d68dd 74%);
+            transition: 500ms;
+        }
+
+        button:hover {
+            background-position: right;
+        }
+
+        button:hover:before {
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        button:focus {
+            outline: none;
+        }
+
+        .packagebox {
+            width: 800px;
+            background-color: rgb(0, 0, 0, 0.6);
+            margin: auto;
+            color: #FFFFFF;
+            padding: 10px 0px 10px 0px;
+            text-align: center;
+        }
+
+        .packageoverview {
+            width: 800px;
+            background-color: rgb(0, 0, 0, 0.6);
+            margin: auto;
+            color: #FFFFFF;
+            padding: 10px 10px 10px 10px;
+            text-align: center;
+        }
+
+        .checked {
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="packageoverview">
+
+        <h1>
+            <center>MYSURU</center>
+        </h1>
+
+        <img src="./images/Mysore.jpg" width="500px" height="250px">
+        <div class="priceratings">
+            <h2>Ratings</h2>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <h2>Price</h2>
+            <h3>RS.4000.00</h3>
+            <br><br>
+
+
+            <h1>
+                <center>Trip Overview</center>
+            </h1>
+            <p>Famously known as The City of Palaces, it wouldn’t be wrong to say that Mysore, currently Mysuru, is one
+                of the most important places in the country regarding ancient reigns. It is replete with the history of
+                its dazzling royal heritage, intricate
+                architecture, its famed silk sarees, yoga, and sandalwood, to name just a few. Located in the foothills
+                of the Chamundi Hills, Mysore is the third most populated city in Karnataka, and its rich heritage draws
+                millions of tourists all year
+                round. The highlight is the majestic Mysore Palace, a UNESCO World Heritage Site, which is a must-visit.
+                Mysore was one of the three largest Princely States in the erstwhile British Empire of India. To this
+                day, the Mysore Palace stands
+                tall as one of the most spectacular palaces in India. A very famous tourist spot that sees thousands of
+                visitors milling in and around it every day, the Mysore Palace is a mesmerizing example of
+                Indo-Saracenic architecture, every inch
+                of the palace drips with opulence and intricate details, and every room that you visit stands out in
+                terms of its elaborate architecture, beautiful paintings, rich colours and stained-glass windows. On
+                every Sunday, and during the Dussehra
+                celebrations, the palace is spectacularly lit up once dusk falls. Another popular element in Mysore is
+                the Ashtanga School of Yoga. This draws visitors and practitioners from around the world to participate
+                in this style of yoga that originated
+                in Mysore. </p>
+        </div>
+        <br>
+
+
+        <h2 class="inclusion">Inclusion</h2>
+
+        <img src="./images/bs.png" width=" 120px " height=" 120px ">
+        <img src="./images/why.jpg" width="120px" height="120px">
+        <img src="./images/rohit.jpg " width=" 120px " height=" 120px ">
+        <img src="./images/dk.jpg " width=" 120px " height=" 120px ">
+        <img src="./images/wif.jpg " width=" 120px " height=" 120px ">
+        <img src="./images/foodie.png " width=" 120px " height=" 120px ">
+        <br>
+        <h2 class="exclusion">Exclusion</h2>
+        <h4>Cost of Airfare/Train/Rail other than specified.</h4>
+        <h4> Meals other than specified.</h4>
+        <h4> Personal expenses such as laundry, telephone bills, bar bills, tips & gratuity, bottled water etc.</h4>
+        <h4> GST of 5 % applicable on the Final Package Cost.</h4>
+
+
+        <center><button type="submit" onClick="myFunction()" />
+            <script>
+                function myFunction() {
+                    window.location.href = "form.html";
+                }
+            </script>>BOOK NOW</button>
+        </center>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,159 @@
+<html>
+
+<head>
+    <title>package_details</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <style>
+        body {
+            background-image: url(./images/Bang.jpg);
+            background-position: center;
+            background-size: cover;
+            font-family: sans-serif;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+        button {
+            width: 150px;
+            height: 50px;
+            cursor: pointer;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #7f5a83;
+            background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+            background-size: 200% 100%;
+            background-position: left;
+            background-repeat: no-repeat;
+            transition: 500ms;
+        }
+
+        button:before {
+            content: 'BOOK NOW';
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 16px;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 140px;
+            height: 40px;
+            background-color: #5194eb;
+            background-image: linear-gradient(315deg, #3969c2 0%, #4d68dd 74%);
+            transition: 500ms;
+        }
+
+        button:hover {
+            background-position: right;
+        }
+
+        button:hover:before {
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        button:focus {
+            outline: none;
+        }
+
+        .packagebox {
+            width: 800px;
+            background-color: rgb(0, 0, 0, 0.6);
+            margin: auto;
+            color: #FFFFFF;
+            padding: 10px 0px 10px 0px;
+            text-align: center;
+        }
+
+        .packageoverview {
+            width: 800px;
+            background-color: rgb(0, 0, 0, 0.6);
+            margin: auto;
+            color: #FFFFFF;
+            padding: 10px 10px 10px 10px;
+            text-align: center;
+        }
+
+        .checked {
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="packageoverview">
+
+        <h1>
+            <center>Bengaluru Rounds</center>
+        </h1>
+
+        <img src="./images/Bang1.jpg" width="500px" height="250px">
+        <div class="priceratings">
+            <h2>Ratings</h2>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <h2>Price</h2>
+            <h3>1000 INR</h3>
+            <br><br>
+
+
+            <h1>
+                <center>Trip Overview</center>
+            </h1>
+            <p>Having evolved gradually from being the Garden city to the Silicon Valley of India,Bengaluru is India's
+                third-largest city.Bengaluru is loved for its pleasant weather, beautiful parks and the many lakes
+                here.Bengaluru is renowned for its eateries,
+                street food corners, quirky cafes, coffee roasters and pubs dotting every corner of the city, serving
+                cuisines from all over the world. Brunches, buffets, burgers, rooftop cafes, late-night eats -Bengaluru
+                has it all. Here, one can choose
+                to take a long stroll through the beautiful Cubbon Park, shop in the many malls or street markets or hop
+                into one of the many acclaimed breweries for a cold and refreshing drink. There are a huge number of
+                beautifully decorated parks in
+                the city that are ideal for going on a morning stroll or a jog. One walk through the 300-acre Cubbon
+                Park, or the botanical gardens of Lalbagh, and you'll know precisely why Bengaluru is so famously called
+                India's 'Garden City'. But just
+                like every big city, the unprecedented growth of IT inBengaluru has reshaped quite a few things
+                including rising temperatures, polluted lakes and heavily congested roads, especially in the newer
+                areas. Aside from the central business and
+                commercial districts (and the roads leading up to them), the neighbourhoods of Bengaluru are mostly
+                quiet and serene, especially the older parts of the city like Jayanagar and J.P Nagar.</p>
+        </div>
+        <br>
+
+
+        <h2 class="inclusion">Inclusion</h2>
+
+        <img src="./images/bs.png" width=" 120px " height=" 120px ">
+        <img src="./images/why.jpg" width="120px" height="120px">
+        <img src="./images/rohit.jpg " width=" 120px " height=" 120px ">
+        <img src="./images/dk.jpg " width=" 120px " height=" 120px ">
+        <img src="./images/wif.jpg " width=" 120px " height=" 120px ">
+        <img src="./images/foodie.png " width=" 120px " height=" 120px ">
+        <br>
+        <h2 class="exclusion">Exclusion</h2>
+        <h4>Cost of Airfare/Train/Rail other than specified.</h4>
+        <h4> Meals other than specified.</h4>
+        <h4> Personal expenses such as laundry, telephone bills, bar bills, tips & gratuity, bottled water etc.</h4>
+        <h4> GST of 5 % applicable on the Final Package Cost.</h4>
+
+
+        <center><button type="submit" onClick="myFunction()" />
+            <script>
+                function myFunction() {
+                    window.location.href = "form.html";
+                }
+            </script>>BOOK NOW</button>
+        </center>
+
+
+
+
+</body>
+
+</html>

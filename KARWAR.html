@@ -1,0 +1,163 @@
+<html>
+
+<head>
+    <title>package_details</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <style>
+        body {
+            background-image: url(./images/Beach.jpg);
+            background-position: center;
+            background-size: cover;
+            font-family: sans-serif;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+        button {
+            width: 150px;
+            height: 50px;
+            cursor: pointer;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #7f5a83;
+            background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+            background-size: 200% 100%;
+            background-position: left;
+            background-repeat: no-repeat;
+            transition: 500ms;
+        }
+
+        button:before {
+            content: 'BOOK NOW';
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 16px;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 140px;
+            height: 40px;
+            background-color: #5194eb;
+            background-image: linear-gradient(315deg, #3969c2 0%, #4d68dd 74%);
+            transition: 500ms;
+        }
+
+        button:hover {
+            background-position: right;
+        }
+
+        button:hover:before {
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        button:focus {
+            outline: none;
+        }
+
+        .packagebox {
+            width: 800px;
+            background-color: rgb(0, 0, 0, 0.6);
+            margin: auto;
+            color: #FFFFFF;
+            padding: 10px 0px 10px 0px;
+            text-align: center;
+        }
+
+        .packageoverview {
+            width: 800px;
+            background-color: rgb(0, 0, 0, 0.6);
+            margin: auto;
+            color: #FFFFFF;
+            padding: 10px 10px 10px 10px;
+            text-align: center;
+        }
+
+        .checked {
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="packageoverview">
+
+        <h1>
+            <center>Karwar- Yana and Dandeli
+            </center>
+        </h1>
+
+        <img src="./images/Karwar.jpg" width="500px" height="250px">
+        <div class="priceratings">
+            <h2>Ratings</h2>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <h2>Price</h2>
+            <h3>4000 INR</h3>
+            <br><br>
+
+
+            <h1>
+                <center>Trip Overview</center>
+            </h1>
+            <p>Karwar is a port city with scenic beaches surrounded by casuarinas trees along the Arabian sea coastline.
+                Located 15kms away from Goa, on the west coast of Indian Peninsula, It is both a natural harbour as well
+                as a town with a history that
+                goes back to the 15th century. Located on the Western Ghats of Uttara Karnataka, Dandeli is bestowed
+                with the lush green forests and lies on the banks of the Kali river. Known for its many fantastic
+                adventure opportunities, Dandeli is
+                a hub for river rafting on river kali . Adventure seekers have many options such as mountain biking,
+                trekking, cycling, kayaking and canoeing. The Dandeli Wildlife Sanctuary is another exciting element
+                that Dandeli has to offer. This is
+                perfect for nature lovers too as they can spot Bisons and Black Panthers here as well as be amidst
+                beautiful flora as well. Yana is a village located in forests of the Sirsi and Kumta Uttara Kannada
+                district of Karnataka, India which is
+                known for the unusual karst rock formations.Yana is one of the wettest villages in the world and it is
+                cleanest village in Karnataka and second cleanest village in India. Dandeli has famous attractions here
+                like the Kavla Caves, Ulavi
+                Temple, Satholi Falls and the famous Sykes Point which gives tourists a breathtaking view of Dandeli.
+                Camping is a popular activity here and there are plenty of operators here that provide fantastic
+                services and memorable experiences to
+                the guests.
+            </p>
+        </div>
+        <br>
+
+
+        <h2 class="inclusion">Inclusion</h2>
+
+        <img src="./images/bs.png" width=" 120px " height=" 120px ">
+        <img src="./images/why.jpg" width="120px" height="120px">
+        <img src="./images/rohit.jpg " width=" 120px " height=" 120px ">
+        <img src="./images/dk.jpg " width=" 120px " height=" 120px ">
+        <img src="./images/wif.jpg " width=" 120px " height=" 120px ">
+        <img src="./images/foodie.png " width=" 120px " height=" 120px ">
+        <br>
+        <h2 class="exclusion">Exclusion</h2>
+        <h4>Cost of Airfare/Train/Rail other than specified.</h4>
+        <h4> Meals other than specified.</h4>
+        <h4> Personal expenses such as laundry, telephone bills, bar bills, tips & gratuity, bottled water etc.</h4>
+        <h4> GST of 5 % applicable on the Final Package Cost.</h4>
+
+
+        <center><button type="submit" onClick="myFunction()" />
+            <script>
+                function myFunction() {
+                    window.location.href = "form.html";
+                }
+            </script>>BOOK NOW</button>
+        </center>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>booking_form</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <div class="booking_form">
+        <h1>Booking</h1>
+    </div>
+
+    <div class="main">
+        <form method="post" action="process_booking.php">
+            <div id="name">
+                <h2 class="name">Name</h2>
+                <input class="firstname" type="text" name="first_name" placeholder="Dinesh" required><br>
+                <label class="firstlabel">First Name</label>
+                <input class="lastname" type="text" name="last_name" placeholder="Kumar" required>
+                <label class="lasstlabel">Last Name</label>
+            </div>
+
+            <h2 class="name">Address</h2>
+            <input class="address" type="text" name="address">
+
+            <h2 class="name">Email</h2>
+            <input class="email" type="text" name="email" required>
+
+            <h2 class="name">Check-in Date</h2>
+            <input type="date" class='address' id="date" name="date" required><br><br>
+
+            <h2 class='name'>Adults</h2>
+            <input type="number" class='address' id="adult" name="total_adults" placeholder="2" min="1" max="10"
+                required>
+            <br><br>
+
+            <h2 class="name">Children</h2>
+            <input class="address" type="number" name="total_children" placeholder="2" min="1" max="5" required>
+
+            <h2 class="name">Phone</h2>
+            <input class="code" type="text" name="area_code">
+            <label class="area_code">Area Code</label>
+            <input class="number" type="tel" name="phone" maxlength="10">
+            <label class="phone_number">Phone number</label>
+
+            <h2 class="name">Select room preference</h2>
+            <select class="option" name="subject">
+                <option disabled="disabled" selected="selected">Choose Option</option>
+                <option>Connecting</option>
+                <option>Adjoining</option>
+                <option>Adjacent</option>
+            </select>
+
+            <h2 id="student">Gender</h2>
+            <label class="radio">
+                <input class="radio-one" type="radio" checked="checked" name="choice" value="Male">
+                <span class="checkmark"></span>
+                Male
+            </label>
+            <label class="radio">
+                <input class="radio-two" type="radio" checked="checked" name="choice" value="Female">
+                <span class="checkmark"></span>
+                Female
+            </label>
+            <label class="radio">
+                <input class="radio-three" type="radio" checked="checked" name="choice" value="Others">
+                <span class="checkmark"></span>
+                Others
+            </label><br><br>
+
+            <h2 id="student">Payment mode</h2>
+            <label class="radio">
+                <input class="radio-one" type="radio" checked="checked" name="payment_mode" value="Cheque">
+                <span class="checkmark"></span>
+                Cheque
+            </label>
+            <label class="radio">
+                <input class="radio-two" type="radio" name="payment_mode" value="Cash">
+                <span class="checkmark"></span>
+                Cash
+            </label>
+
+            <button type="submit">CONFIRM BOOKING</button>
+            <button type="reset" class="button">Cancel</button>
+        </form>
+    </div>
+</body>
+
+</html>

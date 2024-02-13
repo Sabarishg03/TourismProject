@@ -1,0 +1,162 @@
+<html>
+
+<head>
+    <title>package_details</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <style>
+        body {
+            background-image: url(./images/Bayluseeme.jpg);
+            background-position: center;
+            background-size: cover;
+            font-family: sans-serif;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+
+        button {
+            width: 150px;
+            height: 50px;
+            cursor: pointer;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #7f5a83;
+            background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+            background-size: 200% 100%;
+            background-position: left;
+            background-repeat: no-repeat;
+            transition: 500ms;
+        }
+
+        button:before {
+            content: 'BOOK NOW';
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 16px;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 140px;
+            height: 40px;
+            background-color: #5194eb;
+            background-image: linear-gradient(315deg, #3969c2 0%, #4d68dd 74%);
+            transition: 500ms;
+        }
+
+        button:hover {
+            background-position: right;
+        }
+
+        button:hover:before {
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        button:focus {
+            outline: none;
+        }
+
+        .packagebox {
+            width: 800px;
+            background-color: rgb(0, 0, 0, 0.6);
+            margin: auto;
+            color: #FFFFFF;
+            padding: 10px 0px 10px 0px;
+            text-align: center;
+        }
+
+        .packageoverview {
+            width: 800px;
+            background-color: rgb(0, 0, 0, 0.6);
+            margin: auto;
+            color: #FFFFFF;
+            padding: 10px 10px 10px 10px;
+            text-align: center;
+        }
+
+        .checked {
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="packageoverview">
+
+        <h1>
+            <center>HAMPI</center>
+        </h1>
+
+        <img src="./images/Hampi.jpg" width="500px" height="250px">
+        <div class="priceratings">
+            <h2>Ratings</h2>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <h2>Price</h2>
+            <h3>3000 INR</h3>
+            <br><br>
+
+
+            <h1>
+                <center>Trip Overview</center>
+            </h1>
+            <p>Hampi, the city of ruins, is a UNESCO World Heritage Site. Situated in the shadowed depth of hills and
+                valleys in the state of Karnataka, this place is a historical delight for travellers. Surrounded by 500
+                ancient monuments, beautiful temples,
+                bustling street markets, bastions, treasury building and captivating remains of Vijayanagar Empire,
+                Hampi is a backpacker's delight. Hampi is an open museum with 100+ locations to explore and a favourite
+                way to see the city from the perspective
+                of its history. Hampi was the capital of the Vijayanagar empire around 1500 AD, and by some accounts,
+                the second largest city in the world at that time. Over the next centuries it fell out of importance,
+                and now you can explore the ruins
+                of a lot of temples and other structures spread out over a vast area. The terrain around Hampi is as
+                mysterious as the ruins itself - the city is surrounded by boulders of different sizes, and you can
+                climb to the top of them with a little
+                effort to get a stunning view of the entire city and the geography. It is located on the banks of the
+                Tungabhadra River. Famous for its massive, beautifully carved temples, especially the Virupaksha Temple,
+                dedicated to the patron deity
+                of the empire. You can also find remains of the old aqueducts, canals and military barracks and stables
+                here. Hampi was declared a UNESCO World Heritage site in 1986 and many efforts have been taken to
+                restore the lost glory of the place
+                - very limited (if any) modern establishments are allowed in the main area, which gives an authentic
+                feel to the ruins.</p>
+        </div>
+        <br>
+
+
+        <h2 class="inclusion">Inclusion</h2>
+
+        <img src="./images/bs.png" width=" 120px " height=" 120px ">
+        <img src="./images/why.jpg" width="120px" height="120px">
+        <img src="./images/rohit.jpg " width=" 120px " height=" 120px ">
+        <img src="./images/dk.jpg " width=" 120px " height=" 120px ">
+        <img src="./images/wif.jpg " width=" 120px " height=" 120px ">
+        <img src="./images/foodie.png " width=" 120px " height=" 120px ">
+        <br>
+        <h2 class="exclusion">Exclusion</h2>
+        <h4>Cost of Airfare/Train/Rail other than specified.</h4>
+        <h4> Meals other than specified.</h4>
+        <h4> Personal expenses such as laundry, telephone bills, bar bills, tips & gratuity, bottled water etc.</h4>
+        <h4> GST of 5 % applicable on the Final Package Cost.</h4>
+
+
+        <center><button type="submit" onClick="myFunction()" />
+            <script>
+                function myFunction() {
+                    window.location.href = "form.html";
+                }
+            </script>>BOOK NOW</button>
+        </center>
+
+
+
+
+</body>
+
+</html>
